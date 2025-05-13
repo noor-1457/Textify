@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
 //import About from './Components/About';
-import React, { use, useState} from "react";
+import React, {  useState} from "react";
 import Alert from './Components/Alert';
-import Theme from './Components/Theme';
+//import Theme from './Components/Theme';
 //import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
@@ -38,8 +38,8 @@ setTimeout(() => {
   return (
     <>
      {/*<BrowserRouter>*/}
-     <Navbar title="textutils" mode={mode} toggleMode={toggleMode}/>
-     <Theme/>
+     <Navbar title="textify" mode={mode} toggleMode={toggleMode}/>
+     {/*<Theme/>*/}
      <Alert alert={alert}/>
      <div className="container my-3">
        {/*<Routes>*/}
@@ -49,7 +49,7 @@ setTimeout(() => {
             <Route
              exact path="/"
               element={*/}
-                <TextForm showAlert={showAlert}heading="Enter the text to analyze below"mode={mode} />   
+                <TextForm showAlert={showAlert}heading="Try Textify- Word Counter, Character Counter, Remove Extra Spaces"mode={mode} />   
           {/*</Routes>*/}
     {/*<About/>*/}
      </div>

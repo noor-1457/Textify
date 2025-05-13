@@ -33,9 +33,10 @@ function App() {
               title={t}
               style={{
                 backgroundColor:
-                  t === 'dark' ? '#333' :
+                  t === 'dark' ? '' :
                   t === 'blue' ? '#00bcd4' :
                   t === 'green' ? '#4caf50' :
+                  t === 'yellow'? '#20b2aa'  :
                   '#fff',
               }}
             />

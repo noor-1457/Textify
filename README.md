@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Live App](https://noor-1457.github.io/Textify/) <!-- Replace if using a different hosting -->
+🔗 [View Live App] <!-- Replace if using a different hosting -->
 
 ---
 

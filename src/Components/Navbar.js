@@ -53,7 +53,7 @@ export default function Navbar(props) {
               }`}
               htmlFor="switchCheckDefault"
             >
-              Enable Dark Mode
+              Enable Light Mode
             </label>
           </div>
         </div>
